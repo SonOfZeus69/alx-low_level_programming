@@ -18,7 +18,7 @@ while (b < 9)
 c = 2;
 while (c < 10)
 {
-if ((a < b) && (b < c))
+if ((a < b)&&(b < c))
 {
 putchar(a + '0');
 putchar(b + '0');
