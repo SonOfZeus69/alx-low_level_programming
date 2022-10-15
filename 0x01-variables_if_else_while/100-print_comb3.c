@@ -7,9 +7,10 @@
 int main(void)
 {
 int a = 0;
-int b = 1;
+int b;
 while (a < 9)
 {
+b = 1;
 while (b < 10)
 {
 if (b != a && b > a)
