@@ -1,0 +1,13 @@
+#include "main.h"
+
+/**
+ * _abs - prints the absolute value of the inputted number
+ * @n: letter being used to test
+ * Return: Always return 0 (Success)
+ */
+
+int _abs(int n)
+{
+_putchar(abs(n) + '0');
+return (0);
+}
