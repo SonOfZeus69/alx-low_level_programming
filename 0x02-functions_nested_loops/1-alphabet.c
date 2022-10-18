@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - prints the alphabets in lowercase
  *
  * Return: Always return 0 (Success)
  */
@@ -14,5 +14,5 @@ while (i <= 'z')
 _putchar(i);
 i++;
 }
-return (0);
+_putchar('\n');
 }
