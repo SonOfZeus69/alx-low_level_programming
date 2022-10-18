@@ -14,5 +14,5 @@ while (i <= 'z')
 _putchar(i);
 i++;
 }
-return 0 (Success);
+return (0);
 }
