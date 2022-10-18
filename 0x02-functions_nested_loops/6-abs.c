@@ -8,7 +8,9 @@
 
 int _abs(int n)
 {
-int r = abs(n);
-_putchar(r + '0');
-return (0);
+if (n < 1)
+{
+return (n * -1);
+}
+return (n);
 }
