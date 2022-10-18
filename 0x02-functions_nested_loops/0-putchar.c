@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -7,6 +7,13 @@
 
 int main(void)
 {
-putchar("_putchar\n");
+char jid[] = "_putchar";
+int c;
+
+for (c = 0; c < 8; c++)
+{
+_putchar(jid[c]);
+}
+_putchar('\n');
 return (0);
 }
