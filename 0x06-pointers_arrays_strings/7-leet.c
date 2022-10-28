@@ -13,7 +13,7 @@ char *leet(char *s)
 	char l[] = "oOlLeEaAtT";
 	char e[] = "0011334477";
 
-	int = 0;
+	i = 0;
 	while (s[i] != '\0')
 	{
 		j = 0;
