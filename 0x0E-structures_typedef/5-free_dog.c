@@ -15,3 +15,4 @@ if (d != NULL)
 	free(d->name);
 	free(d);
 }
+}
